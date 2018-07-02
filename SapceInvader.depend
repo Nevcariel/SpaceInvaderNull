@@ -1,0 +1,132 @@
+# depslib dependency file v1.0
+1530471349 source:f:\asinfo\c++\projet\sapceinvader\src\forme.cpp
+	<iostream>
+	"allegro.h"
+	<list>
+	<cmath>
+	"carre.h"
+	"cercle.h"
+	"rectangle.h"
+	"forme.h"
+	"invader.h"
+	"invaderManager.h"
+	"multiformes.h"
+	"point.h"
+	"projectile.h"
+
+1530480893 f:\asinfo\c++\projet\sapceinvader\include\forme.h
+	<iostream>
+	"allegro.h"
+
+1530481706 source:f:\asinfo\c++\projet\sapceinvader\src\carre.cpp
+	"carre.h"
+
+1530480911 f:\asinfo\c++\projet\sapceinvader\include\carre.h
+	"rectangle.h"
+
+1530481325 f:\asinfo\c++\projet\sapceinvader\include\rectangle.h
+	"forme.h"
+	"point.h"
+
+1530480927 f:\asinfo\c++\projet\sapceinvader\include\point.h
+	"forme.h"
+
+1530485150 source:f:\asinfo\c++\projet\sapceinvader\src\invader.cpp
+	"invader.h"
+
+1530484982 f:\asinfo\c++\projet\sapceinvader\include\invader.h
+	"carre.h"
+	"projectile.h"
+
+1530481730 source:f:\asinfo\c++\projet\sapceinvader\src\cercle.cpp
+	<iostream>
+	"allegro.h"
+	<list>
+	<cmath>
+	"carre.h"
+	"cercle.h"
+	"rectangle.h"
+	"forme.h"
+	"invader.h"
+	"invaderManager.h"
+	"multiformes.h"
+	"point.h"
+	"projectile.h"
+
+1530481830 f:\asinfo\c++\projet\sapceinvader\include\cercle.h
+	"forme.h"
+	"point.h"
+
+1530485005 source:f:\asinfo\c++\projet\sapceinvader\src\invadermanager.cpp
+	"invaderManager.h"
+	"projectile.h"
+
+1530484985 f:\asinfo\c++\projet\sapceinvader\include\invadermanager.h
+	<invader.h>
+	<list>
+
+1530485272 source:f:\asinfo\c++\projet\sapceinvader\src\projectile.cpp
+	"projectile.h"
+
+1530485077 f:\asinfo\c++\projet\sapceinvader\include\projectile.h
+	"cercle.h"
+	"invaderManager.h"
+
+1530485231 source:f:\asinfo\c++\projet\sapceinvader\src\rectangle.cpp
+	<iostream>
+	"allegro.h"
+	<list>
+	<cmath>
+	"carre.h"
+	"cercle.h"
+	"rectangle.h"
+	"forme.h"
+	"invader.h"
+	"invaderManager.h"
+	"multiformes.h"
+	"point.h"
+	"projectile.h"
+
+1530484464 source:f:\asinfo\c++\projet\sapceinvader\src\vaisseau.cpp
+	"vaisseau.h"
+
+1530484458 f:\asinfo\c++\projet\sapceinvader\include\vaisseau.h
+	<carre.h>
+
+1530485061 source:f:\asinfo\c++\projet\sapceinvader\main.cpp
+	<iostream>
+	"allegro.h"
+	"invaderManager.h"
+	"multiformes.h"
+	"projectile.h"
+	"vaisseau.h"
+
+1530483956 f:\asinfo\c++\projet\sapceinvader\include\multiformes.h
+	<list>
+	"forme.h"
+
+1530484144 source:f:\asinfo\c++\projet\sapceinvader\src\multiformes.cpp
+	"multiformes.h"
+
+1530481092 source:f:\asinfo\c++\projet\sapceinvader\src\point.cpp
+	<iostream>
+	"allegro.h"
+	<list>
+	<cmath>
+	"carre.h"
+	"cercle.h"
+	"rectangle.h"
+	"forme.h"
+	"invader.h"
+	"invaderManager.h"
+	"multiformes.h"
+	"point.h"
+	"projectile.h"
+
+1530480908 f:\asinfo\c++\projet\sapceinvader\include\alien.h
+	<carre.h>
+	<projectile.h>
+
+1530472675 source:f:\asinfo\c++\projet\sapceinvader\src\alien.cpp
+	"alien.h"
+

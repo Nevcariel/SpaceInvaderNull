@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SapceInvader" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SapceInvader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SapceInvader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/carre.h" />
+		<Unit filename="include/cercle.h" />
+		<Unit filename="include/forme.h" />
+		<Unit filename="include/invader.h" />
+		<Unit filename="include/invaderManager.h" />
+		<Unit filename="include/multiformes.h" />
+		<Unit filename="include/point.h" />
+		<Unit filename="include/projectile.h" />
+		<Unit filename="include/rectangle.h" />
+		<Unit filename="include/vaisseau.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/carre.cpp" />
+		<Unit filename="src/cercle.cpp" />
+		<Unit filename="src/forme.cpp" />
+		<Unit filename="src/invader.cpp" />
+		<Unit filename="src/invaderManager.cpp" />
+		<Unit filename="src/multiformes.cpp" />
+		<Unit filename="src/point.cpp" />
+		<Unit filename="src/projectile.cpp" />
+		<Unit filename="src/rectangle.cpp" />
+		<Unit filename="src/vaisseau.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
